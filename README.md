@@ -4,9 +4,9 @@
 
 > **Eine moderne, animierte Website mit Partikeleffekten und responsivem Design, die sich gegen die AfD und Rechtsextremismus positioniert.**
 
-[![GitHub license](https://img.shields.io/github/license/deinname/fckafd-website)](https://github.com/deinname/fckafd-website/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/travis/deinname/fckafd-website)](https://travis-ci.org/deinname/fckafd-website)
-[![Last Commit](https://img.shields.io/github/last-commit/deinname/fckafd-website)](https://github.com/deinname/fckafd-website/commits/main)
+[![GitHub license](https://img.shields.io/github/license/eministarvr/fckafd)](https://github.com/eministarvr/fckafd/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/travis/eministarvr/fckafd)](https://travis-ci.org/eministarvr/fckafd)
+[![Last Commit](https://img.shields.io/github/last-commit/eministarvr/fckafd)](https://github.com/eministarvr/fckafd/commits/main)
 
 ## ❓ **Warum diese Website?**
 

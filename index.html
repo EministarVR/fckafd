@@ -37,6 +37,7 @@
             justify-content: center;
             align-items: center;
             position: relative;
+            padding: 20px;
         }
 
         .container {
@@ -51,7 +52,6 @@
             -webkit-background-clip: text;
             color: transparent;
             text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
-            animation: glitch 1.5s infinite alternate;
         }
 
         p {
@@ -118,7 +118,7 @@
         }
 
         .navbar img {
-            height: 40px;
+            height: 50px;
         }
 
         .nav-links {
@@ -146,8 +146,8 @@
         }
 
         .hamburger div {
-            width: 30px;
-            height: 4px;
+            width: 35px;
+            height: 5px;
             background: white;
             transition: 0.3s;
         }
@@ -155,20 +155,28 @@
         .mobile-menu {
             display: none;
             position: absolute;
-            top: 60px;
+            top: 70px;
             left: 0;
             width: 100%;
-            background: rgba(0, 0, 0, 0.9);
+            background: rgba(0, 0, 0, 0.95);
             flex-direction: column;
             align-items: center;
             padding: 20px;
+            gap: 15px;
         }
 
         .mobile-menu a {
             color: white;
             text-decoration: none;
             font-size: 1.5rem;
-            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            transition: background 0.3s;
+        }
+
+        .mobile-menu a:hover {
+            background: rgba(255, 0, 0, 0.6);
         }
 
         /* Mobile Optimierung */
@@ -176,6 +184,7 @@
             h1 {
                 font-size: 3rem;
             }
+
             p {
                 font-size: 1.2rem;
             }
@@ -196,6 +205,10 @@
             .mobile-menu a {
                 font-size: 1.2rem;
             }
+
+            .navbar img {
+                height: 60px;
+            }
         }
     </style>
 </head>
@@ -204,7 +217,7 @@
     <div id="particles-js"></div>
 
     <div class="navbar">
-        <img src="IMG_5226.png" alt="Logo">
+        <img src="logo.png" alt="Logo">
         <div class="nav-links">
             <a href="#start">Start</a>
             <a href="#warum">Warum?</a>

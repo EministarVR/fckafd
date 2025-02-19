@@ -72,7 +72,7 @@ Die AfD ist eine Partei, die zunehmend rechtsextreme Positionen vertritt. Sie ve
 
 ## 📜 **Lizenz**
 
-Diese Website steht unter der **MIT-Lizenz** – freie Nutzung & Anpassung erlaubt.
+Diese Website steht unter der **MIT-Lizenz** – freie Nutzung & Anpassung erlaubt. Solang der ursprüngliche Entwickler namentlich erwähnt wird.
 
 ---
 

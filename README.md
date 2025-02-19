@@ -1,6 +1,6 @@
 # 🚨 FCK AFD – Eine Website gegen Rechtsextremismus
 
-![Website Preview](https://via.placeholder.com/1200x600.png?text=FCK+AFD+Website)
+![Website Preview](https://eministarvr.github.io/fckafd)
 
 > **Eine moderne, animierte Website mit Partikeleffekten und responsivem Design, die sich gegen die AfD und Rechtsextremismus positioniert.**
 

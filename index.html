@@ -12,7 +12,6 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            scroll-behavior: smooth;
         }
 
         body {
@@ -20,23 +19,24 @@
             color: white;
             font-family: 'Orbitron', sans-serif;
             text-align: center;
-            overflow-x: hidden;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         #particles-js {
-            position: fixed;
+            position: absolute;
             width: 100%;
             height: 100%;
             z-index: -1;
         }
 
-        .hero {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+        .container {
             position: relative;
+            z-index: 1;
         }
 
         h1 {
@@ -46,48 +46,19 @@
             -webkit-background-clip: text;
             color: transparent;
             text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+            animation: glitch 1.5s infinite alternate;
         }
 
         p {
             font-size: 1.5rem;
             margin-top: 10px;
             opacity: 0.8;
-        }
-
-        .section {
-            padding: 80px 20px;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .section:nth-child(even) {
-            background: #111;
-        }
-
-        .section h2 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            color: #ff0000;
-            transition: transform 0.3s, color 0.3s;
-        }
-
-        .section h2:hover {
-            transform: scale(1.1);
-            color: #ff8800;
-        }
-
-        .section p {
-            max-width: 700px;
-            line-height: 1.8;
-            font-size: 1.2rem;
+            animation: fadeIn 2s ease-in-out;
         }
 
         footer {
-            padding: 20px;
+            position: absolute;
+            bottom: 10px;
             font-size: 0.9rem;
             opacity: 0.6;
         }
@@ -98,146 +69,39 @@
             font-weight: bold;
         }
 
-        /* Navbar */
-        .navbar {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 100;
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-3px, 3px); }
+            40% { transform: translate(3px, -3px); }
+            60% { transform: translate(-3px, -3px); }
+            80% { transform: translate(3px, 3px); }
+            100% { transform: translate(0); }
         }
 
-        .navbar img {
-            height: 50px;
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
         }
 
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
-
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.2rem;
-            transition: color 0.3s;
-        }
-
-        .nav-links a:hover {
-            color: #ff0000;
-        }
-
-        /* Hamburger Menü */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-        }
-
-        .hamburger div {
-            width: 30px;
-            height: 4px;
-            background: white;
-            transition: 0.3s;
-        }
-
-        /* Mobile Menü */
-        .mobile-menu {
-            display: none;
+        .scanlines::after {
+            content: "";
             position: absolute;
-            top: 60px;
-            left: 0;
             width: 100%;
-            background: rgba(0, 0, 0, 0.9);
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .mobile-menu a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.5rem;
-            margin: 10px 0;
-        }
-
-        /* Mobile Anpassungen */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 3rem;
-            }
-            p {
-                font-size: 1.2rem;
-            }
-
-            .nav-links {
-                display: none;
-            }
-
-            .hamburger {
-                display: flex;
-            }
-
-            .mobile-menu {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                display: none;
-            }
+            height: 100%;
+            background: repeating-linear-gradient(transparent 0px, rgba(255, 255, 255, 0.05) 2px, transparent 4px);
+            z-index: 2;
+            opacity: 0.3;
+            pointer-events: none;
         }
     </style>
 </head>
-<body>
+<body class="scanlines">
 
     <div id="particles-js"></div>
 
-    <div class="navbar">
-        <img src="IMG_5226.png" alt="Logo">
-        <div class="nav-links">
-            <a href="#start">Start</a>
-            <a href="#warum">Warum?</a>
-            <a href="#gefahr">Gefahr</a>
-            <a href="#kontakt">Kontakt</a>
-        </div>
-        <div class="hamburger" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
-    <div class="mobile-menu" id="mobileMenu">
-        <a href="#start" onclick="toggleMenu()">Start</a>
-        <a href="#warum" onclick="toggleMenu()">Warum?</a>
-        <a href="#gefahr" onclick="toggleMenu()">Gefahr</a>
-        <a href="#kontakt" onclick="toggleMenu()">Kontakt</a>
-    </div>
-
-    <div id="start" class="hero">
-        <div class="container">
-            <h1>FCK AFD</h1>
-            <p>Kein Platz für Faschismus.</p>
-        </div>
-    </div>
-
-    <div id="warum" class="section">
-        <h2>Warum "FCK AFD"?</h2>
-        <p>Die AfD ist eine Partei, die immer weiter nach rechts abrutscht. Rassismus, Hass und Hetze gehören zu ihrem Kernprogramm. Dagegen müssen wir aufstehen.</p>
-    </div>
-
-    <div id="gefahr" class="section">
-        <h2>Warum ist die AFD gefährlich?</h2>
-        <p>Die AfD verbreitet Verschwörungstheorien, hetzt gegen Minderheiten und bedroht die Demokratie. Ihre Verbindungen zu rechtsextremen Gruppen sind beängstigend.</p>
-    </div>
-
-    <div id="kontakt" class="section">
-        <h2>Kontakt & Unterstützung</h2>
-        <p>Setze dich für eine bessere Zukunft ein! Engagiere dich, teile diese Seite oder informiere dich über demokratische Alternativen.</p>
+    <div class="container">
+        <h1>FCK AFD</h1>
+        <p>Kein Platz für Faschismus.</p>
     </div>
 
     <footer>
@@ -245,15 +109,6 @@
     </footer>
 
     <script>
-        function toggleMenu() {
-            var menu = document.getElementById("mobileMenu");
-            if (menu.style.display === "flex") {
-                menu.style.display = "none";
-            } else {
-                menu.style.display = "flex";
-            }
-        }
-
         particlesJS("particles-js", {
             "particles": {
                 "number": { "value": 150 },
@@ -262,6 +117,9 @@
                 "opacity": { "value": 0.7, "random": true },
                 "size": { "value": 3, "random": true },
                 "move": { "enable": true, "speed": 2 }
+            },
+            "interactivity": {
+                "events": { "onhover": { "enable": true, "mode": "repulse" } }
             }
         });
     </script>

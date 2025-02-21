@@ -10,6 +10,11 @@
 [![Repo Stars](https://img.shields.io/github/stars/eministarvr/fckafd?color=yellow&style=for-the-badge)](https://github.com/eministarvr/fckafd/stargazers)  
 [![Issues](https://img.shields.io/github/issues/eministarvr/fckafd?color=red&style=for-the-badge)](https://github.com/eministarvr/fckafd/issues)  
 
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+
 ## ❓ **Warum diese Website?**
 
 Die AfD ist eine Partei, die zunehmend rechtsextreme Positionen vertritt. Sie verbreitet Verschwörungstheorien, hetzt gegen Minderheiten und bedroht demokratische Werte. Mit dieser Website setzen wir ein klares Zeichen **gegen Rassismus, Hetze und Faschismus**.

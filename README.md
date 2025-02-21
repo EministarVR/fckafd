@@ -1,11 +1,10 @@
 # 🚨 FCK AFD – Eine Website gegen Rechtsextremismus
 
-![Website Preview](https://eministarvr.tech)
+
 
 > **Eine moderne, animierte Website mit Partikeleffekten und responsivem Design, die sich gegen die AfD und Rechtsextremismus positioniert.**
 
 [![GitHub license](https://img.shields.io/github/license/eministarvr/fckafd)](https://github.com/eministarvr/fckafd/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/travis/eministarvr/fckafd)](https://travis-ci.org/eministarvr/fckafd)
 [![Last Commit](https://img.shields.io/github/last-commit/eministarvr/fckafd)](https://github.com/eministarvr/fckafd/commits/main)
 
 ## ❓ **Warum diese Website?**
@@ -31,17 +30,17 @@ Die AfD ist eine Partei, die zunehmend rechtsextreme Positionen vertritt. Sie ve
 
 ---
 
-## 📊 **Statistiken & Fakten**
+## 📊 **Fakten**
 
 ### 📉 **AfD-Wählerstruktur (2023)**  
-![Statistik 1](https://via.placeholder.com/800x400.png?text=AfD-W%C3%A4hlerstruktur)
+
 
 - **Höchste Zustimmungswerte** in ostdeutschen Bundesländern
 - **Überrepräsentation** bei männlichen Wählern
 - **Starke Wählermobilisierung** durch soziale Medien
 
 ### 📢 **Verfassungsschutzbericht**  
-![Statistik 2](https://via.placeholder.com/800x400.png?text=Verfassungsschutzbericht)
+[Bericht[(https://www.verfassungsschutz.de/SharedDocs/pressemitteilungen/DE/2022/pressemitteilung-2022-1-afd.html)
 
 - **Mehrere Landesverbände** als rechtsextreme Verdachtsfälle eingestuft
 - **Enge Verbindungen** zu rechtsextremen Netzwerken

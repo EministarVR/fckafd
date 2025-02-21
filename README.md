@@ -40,7 +40,7 @@ Die AfD ist eine Partei, die zunehmend rechtsextreme Positionen vertritt. Sie ve
 - **Starke Wählermobilisierung** durch soziale Medien
 
 ### 📢 **Verfassungsschutzbericht**  
-[Bericht[(https://www.verfassungsschutz.de/SharedDocs/pressemitteilungen/DE/2022/pressemitteilung-2022-1-afd.html)
+[Bericht](https://www.verfassungsschutz.de/SharedDocs/pressemitteilungen/DE/2022/pressemitteilung-2022-1-afd.html)
 
 - **Mehrere Landesverbände** als rechtsextreme Verdachtsfälle eingestuft
 - **Enge Verbindungen** zu rechtsextremen Netzwerken
@@ -52,12 +52,11 @@ Die AfD ist eine Partei, die zunehmend rechtsextreme Positionen vertritt. Sie ve
 
 1. **📂 Clone das Repository:**
 
-   ```git clone https://github.com/eministarvr/fckafd.git  
-   cd fckafd-website```
+   ```git clone https://github.com/eministarvr/fckafd.git```
 
-2. **🌐 Öffne `index.html`** in deinem Browser
+3. **🌐 Öffne `index.html`** in deinem Browser
 
-3. **📡 Online-Hosting (Netlify, Vercel, GitHub Pages empfohlen)**
+4. **📡 Online-Hosting (Netlify, Vercel, GitHub Pages empfohlen)**
 
 ---
 

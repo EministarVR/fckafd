@@ -5,10 +5,8 @@
 > **Eine moderne, animierte Website mit Partikeleffekten und responsivem Design, die sich gegen die AfD und Rechtsextremismus positioniert.**
 >
 >
-[![GitHub license](https://img.shields.io/github/license/eministarvr/fckafd?color=brightgreen&style=plastic)](https://github.com/eministarvr/fckafd/blob/main/LICENSE)  
-[![Last Commit](https://img.shields.io/github/last-commit/eministarvr/fckafd?color=orange&style=plastic)](https://github.com/eministarvr/fckafd/commits/main)  
-[![Repo Stars](https://img.shields.io/github/stars/eministarvr/fckafd?color=gold&style=plastic)](https://github.com/eministarvr/fckafd/stargazers)  
-[![Issues](https://img.shields.io/github/issues/eministarvr/fckafd?color=darkred&style=plastic)](https://github.com/eministarvr/fckafd/issues)  
+[![GitHub license](https://img.shields.io/github/license/eministarvr/fckafd?color=brightgreen&style=plastic)](https://github.com/eministarvr/fckafd/blob/main/LICENSE) [![Last Commit](https://img.shields.io/github/last-commit/eministarvr/fckafd?color=orange&style=plastic)](https://github.com/eministarvr/fckafd/commits/main) [![Repo Stars](https://img.shields.io/github/stars/eministarvr/fckafd?color=gold&style=plastic)](https://github.com/eministarvr/fckafd/stargazers) [![Issues](https://img.shields.io/github/issues/eministarvr/fckafd?color=darkred&style=plastic)](https://github.com/eministarvr/fckafd/issues)
+
 
 
 

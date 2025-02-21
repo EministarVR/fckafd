@@ -3,6 +3,8 @@
 
 
 > **Eine moderne, animierte Website mit Partikeleffekten und responsivem Design, die sich gegen die AfD und Rechtsextremismus positioniert.**
+>
+> 
 [![GitHub license](https://img.shields.io/github/license/eministarvr/fckafd?color=blue&style=for-the-badge)](https://github.com/eministarvr/fckafd/blob/main/LICENSE)  
 [![Last Commit](https://img.shields.io/github/last-commit/eministarvr/fckafd?style=for-the-badge)](https://github.com/eministarvr/fckafd/commits/main)  
 [![Repo Stars](https://img.shields.io/github/stars/eministarvr/fckafd?color=yellow&style=for-the-badge)](https://github.com/eministarvr/fckafd/stargazers)  
